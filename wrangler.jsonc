@@ -18,5 +18,11 @@
       "binding": "WORKER_SELF_REFERENCE",
       "service": "alshariyah"
     }
-  ]
+  ],
+  "vars": {
+    "RESEND_FROM_EMAIL": "no-reply@alshariyah.com",
+    "RESEND_FROM_NAME": "الشريحة الموثوقة",
+    "BACKEND_URL": "https://sharehaa.vercel.app",
+    "FRONTEND_URL": "https://alshariyah.com"
+  }
 }
