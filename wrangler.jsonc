@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "alshariyah",
+  "compatibility_date": "2026-10-23",
+  "observability": {
+    "enabled": true
+  },
+  "service_bindings": [
+    {
+      "name": "WORKER_SELF_REFERENCE",
+      "service": "alshariyah"
+    }
+  ]
+}
